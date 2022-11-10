@@ -5,6 +5,7 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Modality;
@@ -43,6 +44,9 @@ public class Agenda extends Application{
     public void start(Stage primaryStage) {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("Agenda");
+
+        //añadir un icono a la aplicación
+        this.primaryStage.getIcons().add(new Image("file:images/agenda.png"));
 
         initRootLayout();
 

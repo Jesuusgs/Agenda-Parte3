@@ -6,7 +6,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="280.0" prefWidth="432.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.agenda.PersonEditDialogController">
+<AnchorPane prefHeight="280.0" prefWidth="432.0" styleClass="background" stylesheets="@DarkTheme.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.agenda.PersonEditDialogController">
    <children>
       <GridPane layoutX="9.0" layoutY="6.0" prefHeight="216.0" prefWidth="416.0">
         <columnConstraints>
@@ -36,7 +36,7 @@
             <TextField fx:id="birthdayField" GridPane.columnIndex="1" GridPane.rowIndex="5" />
          </children>
       </GridPane>
-      <Button layoutX="315.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleOk" text="OK" />
+      <Button layoutX="274.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleOk" text="OK" />
       <Button layoutX="356.0" layoutY="241.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancelar" />
    </children>
 </AnchorPane>
